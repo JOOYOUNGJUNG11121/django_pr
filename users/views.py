@@ -1,5 +1,3 @@
-
-# Create your views here.
 # users/views.py
 
 from django.conf import settings
