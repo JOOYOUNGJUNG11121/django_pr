@@ -45,7 +45,7 @@ def todo_create(request):
     context = {
         'form': form
     }
-    return render(request, 'todo/templates/todo_create.html', context)
+    return render(request, 'todo/todo_create.html', context)
 
 
 @login_required()
